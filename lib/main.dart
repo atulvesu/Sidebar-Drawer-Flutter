@@ -37,7 +37,9 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: 'bottomTabScreen',
+      // At Initial Route Write 'bottomTabScreen' to show Next Screen
+      initialRoute: 'SideDrawerScreen',
+
       routes: {
         'SideDrawerScreen': (context) => SideDrawerScreen(),
         'bottomTabScreen': (context) => BottomTapScreen(),
